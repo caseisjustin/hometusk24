@@ -1,41 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    header nav li {
+      margin-right: 20px;
+    }
+
+    header nav a {
+      text-decoration: none;
+      color: black;
+      transition: 0.5s;
+    }
+
+    header nav a:hover {
+      color: #00eaff;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    main section {
+      margin-bottom: 20px;
+    }
+
+    main h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    main p {
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <title>Home</title>
 </head>
+
 <body>
-    <header>
-        <h1>Brand Name</h1>
-        <nav>
-          <ul type="none">
-            <li><a href="#">Home</a></li>
-            <li><a href="./product.html">Product</a></li>
-            <li><a href="./price.html">Pricing</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./joinus.html">Login</a></li>
-          </ul>
-        </nav>
-      </header>
-    
-      <main>
-        <section>
-          <h2>Welcome</h2>
-          <p>Insert text here or replace with your image using the img tag: <br>
-          <img src="path/to/your/image.jpg" alt="Image description"></p>
-        </section>
-    
-        <section>
-          <h2>Best Learning Opportunities</h2>
-          <p>Insert text here</p>
-        </section>
-      </main>
-    
-      <footer>
-        <p>&copy; Brand Name 2024</p>
-      </footer>
+
+  <header>
+    <h1>Brand Name</h1>
+    <nav>
+      <ul type="none">
+        <li><a href="#">Home</a></li>
+        <li><a href="./product.html">Product</a></li>
+        <li><a href="./price.html">Pricing</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./login.html">Login</a></li>
+        <li><a href="./joinus.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>Insert text here or replace with your image using the img tag: <br>
+        <img src="path/to/your/image.jpg" alt="Image description">
+      </p>
+    </section>
+
+    <section>
+      <h2>Best Learning Opportunities</h2>
+      <p>Insert text here</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Brand Name 2024</p>
+  </footer>
+
 </body>
+
 </html>
